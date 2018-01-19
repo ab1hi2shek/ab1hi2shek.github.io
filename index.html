@@ -22,6 +22,9 @@
   <!-- Responsive CSS -->
   <link href="assets/css/responsive.css" rel="stylesheet">
 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -118,8 +121,8 @@
         <div class="col-lg-8 col-lg-offset-2 centered">
           <img class = "avatar" src="assets/images/my-photo.jpg" alt="Stanley" >
           <p class="avatar-heading">Hi there, I am Abhishek</p>
-          <p class="avatar-p">I love to code, be it's a Web app, Computer application, Competitive Coding Challange or anything that involves firing up my Sublime-Text window.</p>
-          <p class="avatar-p">Curently a final Semster student pursuing CSE at NIT Durgapur. I am extensively looking for an opportunity to start my carrer with an awesome colleague like you. Contact me, if you have any relevant opportunity. </p>
+          <p class="avatar-p">I love to code, be it a Web app, Computer application, Competitive Coding Challange or anything that involves firing up my Sublime-Text window.</p>
+          <p class="avatar-p">Curently a final Semster student pursuing CSE at NIT Durgapur. I am extensively looking for an opportunity to start my career with an awesome colleague like you. Contact me, if you have any relevant opportunity. </p>
         
         </div><!-- /col-lg-8 -->
       </div><!-- /row -->
@@ -326,27 +329,67 @@
     <section id="contact" class="contact-section section-padding">
       <div class="container">
           <div class="row">
-            <div class="location-map">
-              <div id="map-haha" class="map-canvas"></div>
-              <script>
-                function initMap() {
-                  var hall5 = {lat: 23.545855, lng: 87.287689};
-                  var map = new google.maps.Map(document.getElementById('map-haha'), {
-                  zoom: 15,
-                  center: hall5
-                });
-                var marker = new google.maps.Marker({
-                  position: hall5,
-                  map: map
-                });
-                marker.setMap(map);
-              }
-            </script>
+            <div class="col-md-6">
+
+              <div class="location-map">
+                <div id="map-haha" class="map-canvas"></div>
+                <script>
+                  function initMap() {
+                    var hall5 = {lat: 23.545855, lng: 87.287689};
+                    var map = new google.maps.Map(document.getElementById('map-haha'), {
+                    zoom: 15,
+                    center: hall5
+                  });
+                  var marker = new google.maps.Marker({
+                    position: hall5,
+                    map: map
+                  });
+                  marker.setMap(map);
+                }
+              </script>
+              </div>
             </div>
           </div>
       </div><!-- /.container -->
     </section><!-- End Contact Section -->
 
+    <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons" style="background-color:#26a69a;">email</i>
+    </a>
+    <ul>
+      <li>
+        <a class="btn-floating btn-large" 
+          href="https://www.facebook.com/ab1hi2shek"
+          target="_blank">
+          <i class="fa fa-facebook" aria-hidden="true" style="color:#c0392b;"></i>
+        </a>
+      </li>
+
+      <li>
+        <a class="btn-floating btn-large yellow" 
+          href="https://github.com/ab1hi2shek"
+          target="_blank">
+          <i class="fa fa-github" aria-hidden="true" style="color:#c0392b;"></i>
+        </a>
+      </li>
+
+      <li>
+        <a class="btn-floating btn-large">
+          <i class="fa fa-instagram" aria-hidden="true" style="color:#c0392b;"></i></i>
+        </a>
+      </li>
+
+      <li>
+        <a class="btn-floating btn-large" 
+          href="https://stackoverflow.com/users/6946932/abhishek-kumar" 
+          target="_blank">
+            <i class="fa fa-stack-overflow" aria-hidden="true"  style="color:#c0392b;"></i>
+        </a>
+      </li>
+
+    </ul>
+  </div>
 
 
 
@@ -354,6 +397,8 @@
 	<div class="scroll-up">
 		<a href="#about"><i class="fa fa-angle-up"></i></a>
 	</div>
+
+  <p class="footer"><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp;AbhisheKumar</p>
 
 	<!-- Javascript files -->
   <script async defer
@@ -371,5 +416,7 @@
   <script src="assets/js/jquery.magnific-popup.min.js"></script>
   <script src="assets/js/jquery.fitvids.js"></script>
   <script src="assets/js/scripts.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  
 </body>
 </html>
