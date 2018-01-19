@@ -779,6 +779,7 @@ Resume Timeline
     transition: all 400ms;
 }
 
+/* hahah */
 .timeline-content::after{
     border: 1px solid #4b0802;
     width: 100%;
