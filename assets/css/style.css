@@ -1,6 +1,7 @@
 
 body{
-    font-family: 'Roboto', sans-serif;
+    
+    font-family: "poppins-regular", sans-serif;
     line-height: 28px;
     font-weight: 300;
     font-size: 14px;
@@ -1010,7 +1011,7 @@ Resume Timeline
 .footer {
     text-align: center;
     font-size: 16px;
-    color: #fff; 
+    color: #c0392b; 
 }
 
 
@@ -1031,7 +1032,7 @@ Resume Timeline
 }
 
 .scroll-up a {
-	background-color: #26a69a;
+	background-color: #c0392b;
 	display: block;
 	width: 28px;
 	height: 28px;
@@ -1043,8 +1044,8 @@ Resume Timeline
 
 .scroll-up a:hover,
 .scroll-up a:active {
-	background-color: rgba(235, 235, 235, .8);
-	color: #222;
+	background-color: #fff;
+	color: #;
 }
 
 /* ---------------------------------------------- /*
@@ -1169,7 +1170,7 @@ Resume Timeline
 }
 
 .btn:hover,.btn-large:hover{
-    background-color:#2bbbad
+    background-color:#c0392b;
 }
 
 .btn-floating{
@@ -1318,4 +1319,26 @@ button.btn-floating{
 
 .fixed-action-btn ul li{
     margin-bottom:15px
+}
+
+
+.contact-info {
+    font-family: "poppins-regular", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.contact-info .collapse {
+    padding: 0;
+}
+
+.contact-info h5 {
+    color: #c0392b;
+}
+
+.contact-info a {
+    color: #fff;
+}
+
+.contact-info a:hover {
+    color: #c0392b;
 }
