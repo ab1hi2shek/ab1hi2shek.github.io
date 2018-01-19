@@ -769,10 +769,15 @@ Resume Timeline
     position: relative;
 }
 
+.timeline-body{
+    font-weight: 500px; 
+    font-size: 16px;
+}
+
 .timeline-content{
     position: relative;
     padding: 24px;
-    background-color: #4b0802;
+    background-color: #350c08;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
     -o-transition:all 400ms;
@@ -792,7 +797,7 @@ Resume Timeline
 }
 
 .timeline>li .timeline-content:hover {
-    background: #230401;
+    background: #4b0802;
     color: #fff;
 }
 
@@ -806,26 +811,26 @@ Resume Timeline
 }
 .timeline>li .timeline-panel::before {
     left: 100%;
-    border-left: 12px solid #ECECEC;
+    border-left: 12px solid #350c08;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
     -o-transition:all 400ms;
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::before {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid #4b0802;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::before {
     right: 100%;
-    border-right: 12px solid #ECECEC;
+    border-right: 12px solid #350c08;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
     -o-transition:all 400ms;
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::before {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid #4b0802;
     border-left: 0;
 }
 
@@ -840,27 +845,27 @@ Resume Timeline
 .timeline>li .timeline-panel::after {
     left: 100%;
     margin-left: -2px;
-    border-left: 12px solid #000;
+    border-left: 12px solid #4b0802;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
     -o-transition:all 400ms;
     transition: all 400ms;
 }
 .timeline>li .timeline-panel:hover::after {
-    border-left: 12px solid #68c3a3;
+    border-left: 12px solid #4b0802;
 }
 
 .timeline>li.timeline-inverted .timeline-panel::after {
     right: 100%;
     margin-right:-2px;
-    border-right: 12px solid #000;
+    border-right: 12px solid #4b0802;
     -webkit-transition:all 400ms;
     -moz-transition:all 400ms;
     -o-transition:all 400ms;
     transition: all 400ms;
 }
 .timeline>li.timeline-inverted .timeline-panel:hover::after {
-    border-right: 12px solid #68c3a3;
+    border-right: 12px solid #4b0802;
     border-left: 0;
 }
 
@@ -894,6 +899,11 @@ Resume Timeline
 
 /* === Skill Section === */
 .skills-section {
+    background-color: #350c08;
+    color: #fff;   
+}
+
+.skills-section:hover {
     background-color: #4b0802;
     color: #fff;   
 }
@@ -925,7 +935,7 @@ Resume Timeline
 .progress {
     height: 10px;
     margin-bottom: 40px;
-    background-color: #3a4149;
+    background-color: #000;
     border-radius: 3px;
     box-shadow: none;
     width: 75%;
@@ -1463,7 +1473,7 @@ Icon for all respective meta
 }
 
 .scroll-up a {
-	background-color: #68c3a3;
+	background-color: #350c08;
 	display: block;
 	width: 28px;
 	height: 28px;
@@ -1533,4 +1543,43 @@ Icon for all respective meta
 	0%   { top:5px;  opacity: 0;}
 	30%  { top:10px; opacity: 1;}
 	100% { top:25px; opacity: 0;}
+}
+
+
+/*my CSS*/
+.avatar {
+  margin-top: 50px;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.22), 0 4px 14px rgba(0, 0, 0, 0.24);
+  border: 3px;
+}
+
+.avatar-heading {
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #c0392b;
+}
+
+
+
+/* Paragraph & Typographic */
+.avatar-p {
+    line-height: 28px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+
+/* +++++ WRAP SECTIONS +++++ */
+
+#ww {
+    padding-bottom: 70px;
 }
