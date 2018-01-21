@@ -253,6 +253,103 @@ jQuery(function ($) {
     }());
 
 
+    $(document).ready(function() {
+  $('.social > i').hide();
+})
+
+$(window).load(function() {
+  $('.social > i').show();
+
+  var pdfPos = $('#pdf').position();
+  var linkedinPos = $('#linkedin').position();
+  var githubPos = $('#github').position();
+  var stackPos = $('#stack').position();
+  var facebookPos = $('#facebook').position();
+  var mailPos = $('#mail').position();
+  var imgPos = $('.me').position();
+  
+  $('i').css({
+    position: 'absolute',
+    zIndex: '1',
+    top: imgPos.top + 100,
+    left: '47%'
+  });
+  
+  setTimeout(function() {
+    $('#pdf').animate({
+      top: pdfPos.top + 10,
+      left: pdfPos.left - 10
+    }, 500);
+  }, 250);
+  
+  setTimeout(function() {
+    $('#pdf').animate({
+      top: pdfPos.top,
+      left: pdfPos.left
+    }, 250);
+    
+    $('#linkedin').animate({
+      top: linkedinPos.top + 10,
+      left: linkedinPos.left - 6
+    }, 500);
+  }, 500);
+  
+  setTimeout(function() {
+    $('#linkedin').animate({
+      top: linkedinPos.top,
+      left: linkedinPos.left
+    }, 250);
+    
+    $('#github').animate({
+      top: githubPos.top + 10,
+      left: githubPos.left - 3
+    }, 500);
+  }, 750);
+  
+  setTimeout(function() {
+    $('#github').animate({
+      top: githubPos.top,
+      left: githubPos.left
+    }, 250);
+    
+    $('#stack').animate({
+      top: stackPos.top + 10,
+      left: stackPos.left
+    }, 500);
+  }, 1000);
+  
+  setTimeout(function() {
+    $('#stack').animate({
+      top: stackPos.top,
+      left: stackPos.left
+    }, 250);
+    
+    $('#facebook').animate({
+      top: facebookPos.top + 10,
+      left: facebookPos.left + 3
+    }, 500);
+  }, 1250);
+  
+  setTimeout(function() {
+    $('#facebook').animate({
+      top: facebookPos.top,
+      left: facebookPos.left
+    }, 250);
+    
+    $('#mail').animate({
+      top: mailPos.top + 10,
+      left: mailPos.left + 6
+    }, 500);
+  }, 1500);
+  
+  setTimeout(function() {
+    $('#mail').animate({
+      top: mailPos.top,
+      left: mailPos.left
+    }, 500);
+  }, 1750);
+  
+});
 
 
 
