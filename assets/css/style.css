@@ -1015,6 +1015,15 @@ Resume Timeline
     color: #c0392b; 
 }
 
+.footer i {
+    color: #c0392b; 
+}
+
+.abcdef{
+    margin-top: 20px;
+    align-content: center;
+}
+
 
 
 
@@ -1207,4 +1216,8 @@ Resume Timeline
 .social #facebook:hover {
     margin-top: -1px;
     color: #0177B5;
+}
+
+.contact-heading{
+    color: #c0392b;
 }
